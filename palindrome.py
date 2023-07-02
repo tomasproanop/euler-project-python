@@ -1,10 +1,10 @@
+# Palindrome tester: 
+
 str = 'JaVaJ'  
 strstr = str.casefold()  
-      
-# This string is reverse.  
 rev = reversed(str)  
       
 if list(str) == list(rev):  
-    print("PALINDROME !")  
+    print("It's a palindrome!")  
 else:  
-    print("NOT PALINDROME !")  
+    print("It's not a palindrome!")  
